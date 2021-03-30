@@ -1,0 +1,25 @@
+{
+  "name": "ptero.js",
+  "version": "1.0.0-beta",
+  "description": "A simple module made with typescript to handle pterodactyl panel",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ptero",
+    "pterodactyl",
+    "control-panel"
+  ],
+  "author": "Tatsumaki",
+  "license": "GPL -3.0",
+  "dependencies": {
+    "@4lch4/discord.js-docgen": "^0.10.0",
+    "@types/node-fetch": "^2.5.8",
+    "axios": "^0.21.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.6"
+  }
+}
