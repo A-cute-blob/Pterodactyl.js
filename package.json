@@ -1,5 +1,5 @@
 {
-  "name": "pterodactyl.js",
+  "name": "pterodactyl.ts",
   "version": "1.0.0-beta",
   "description": "A simple module made with typescript to handle pterodactyl panel",
   "main": "index.ts",
