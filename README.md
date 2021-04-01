@@ -1,7 +1,7 @@
-# ✨ Ptero.js
+# ✨ Pterodactyl.js
 
-[![downloadsBadge](https://img.shields.io/npm/dt/ptero.js?style=for-the-badge)](https://npmjs.com/package/ptero.js)
-[![versionBadge](https://img.shields.io/npm/v/ptero.js?style=for-the-badge)](https://npmjs.com/ptero.js)
+[![downloadsBadge](https://img.shields.io/npm/dt/pterodactyl.js?style=for-the-badge)](https://npmjs.com/package/pterodactyl.js)
+[![versionBadge](https://img.shields.io/npm/v/pterodactyl.js?style=for-the-badge)](https://npmjs.com/pterodactyl.js)
  
 ## Features
 - 🔌 Simple And Easy To Get Started

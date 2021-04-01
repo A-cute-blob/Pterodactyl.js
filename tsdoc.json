@@ -11,12 +11,13 @@
     },
     "source": {
         "include": [
-           "src/index.ts",
-            "README.md",
-            "LICENSE"
+					"jsdoc/index.js",
+					"jsdoc/Client.js",
+            "README.md"
+         
         ],
         "exclude": [],
-        "includePattern": ".ts$",
+        "includePattern": ".js$",
         "excludePattern": "(node_modules/|docs)"
     },
     "plugins": [
@@ -36,6 +37,6 @@
         "encoding": "utf8",
         "private": false,
         "recurse": true,
-        "template": "./node_modules/@4lch4/discord.js-docgen"
+        "template": "./node_modules/jsdoc-skyceil"
     }
 }

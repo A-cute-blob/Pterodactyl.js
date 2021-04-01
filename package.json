@@ -1,5 +1,5 @@
 {
-  "name": "ptero.js",
+  "name": "pterodactyl.js",
   "version": "1.0.0-beta",
   "description": "A simple module made with typescript to handle pterodactyl panel",
   "main": "index.ts",
@@ -14,9 +14,8 @@
   "author": "Tatsumaki",
   "license": "GPL -3.0",
   "dependencies": {
-    "@4lch4/discord.js-docgen": "^0.10.0",
     "@types/node-fetch": "^2.5.8",
-    "axios": "^0.21.1",
+    "jsdoc-skyceil": "^1.0.6",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
