@@ -1,10 +1,10 @@
 {
-  "name": "pterodactyl.js",
+  "name": "pterodactyl.ts",
   "version": "1.0.0-beta",
   "description": "A simple module made with typescript to handle pterodactyl panel",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.ts"
   },
   "keywords": [
     "ptero",
@@ -15,10 +15,20 @@
   "license": "GPL -3.0",
   "dependencies": {
     "@types/node-fetch": "^2.5.8",
-    "jsdoc-skyceil": "^1.0.6",
     "node-fetch": "^2.6.1"
   },
+  "homepage": "pterodactyl.lonley.tk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-cute-blob/Pterodactyl.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/A-cute-blob/Pterodactyl.js/issues"
+  },
   "devDependencies": {
-    "jsdoc": "^3.6.6"
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0",
+    "eslint-config-google": "^0.14.0"
   }
 }

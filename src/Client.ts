@@ -63,6 +63,13 @@ if(typeof ops.api !== 'string')  throw new Error('Expected domain to be string r
 this.api = ops.api
 this.domain = ops.domain
  }
+/**
+ * Emitted when server is created 
+ * @event Client#serverCreate
+ * @emits {any} res The response from the ptero api
+ * @example Client.on('serverCreate', async (res) => {
+ * console.log('Created a server' + '\n' + res)}) 
+ */
  /**
 	* Creates a server
 	* @param {object} ops The options required for creating a server
@@ -176,6 +183,13 @@ client.emit('serverCreate', res)
 	* @returns {object} res
 	* @example client.server_delete(1)
   */
+/**
+ * Emitted when server is deleted 
+ * @event Client#serverDelete
+ * @returns {any} res The resrponse from the ptero api
+ * @example Client.on('serverDelete', async (res) => {
+ * console.log('Created a server' + '\n' + res)}) 
+ */
 static async server_delete(id: number, client: Client ) {
 			if(!id) throw new Error('Please provide a id')
 			if(typeof(id) !== 'number') throw new Error('The id is not a number')
@@ -195,16 +209,10 @@ client.emit('serverDelete', res)
 /**
  * Emitted when server is created 
  * @event Client#serverCreate
- * @returns {any} res The response from the ptero api
+ * @emits {any} res The response from the ptero api
  * @example Client.on('serverCreate', async (res) => {
  * console.log('Created a server' + '\n' + res)}) 
  */
-/**
- * Emitted when server is deleted 
- * @event Client#serverDelete
- * @returns {any} res The resrponse from the ptero api
- * @example Client.on('serverDelete', async (res) => {
- * console.log('Created a server' + '\n' + res)}) 
- */
+
 }
 export default Client;

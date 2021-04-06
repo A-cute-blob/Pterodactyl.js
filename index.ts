@@ -1,7 +1,7 @@
-import user from './source/index';
-import client from './source/Client'
-let modules = {
-	User: user,
-	Client: client,
+const user = require('./src/index');
+const client = require('./src/Client');
+
+export default {
+  User: user,
+  Client: client,
 };
-export default modules
